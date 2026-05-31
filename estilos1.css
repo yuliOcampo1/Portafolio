@@ -1,0 +1,92 @@
+html{
+    background-color: rgba(229, 99, 249, 0.078);
+    color: rgba(0, 0, 0, 0.984);
+    font-family:sans-serif;
+}
+.cabeza{
+    color: rgb(10, 9, 9);
+    text-align: center;
+    text-shadow: -1px -1px 1px #ec0db1,
+    0px 4px 1px rgba(245, 248, 247, 0.836),
+    4px 4px 5px rgba(248, 42, 231, 0.7),
+    0px 0px 7px rgba(252, 67, 212, 0.961);
+    font-size: 45px;
+}
+section{
+    text-align: justify;
+    margin: 100px;
+}
+.carac{
+    margin-right: 50%;
+}
+h2{
+    color: rgb(10, 9, 9);
+    font-family:times;
+    font-size: 30px;
+    text-shadow: -1px -1px 1px #ec0db1,
+    0px 4px 1px rgba(245, 248, 247, 0.836),
+    4px 4px 5px rgba(248, 42, 231, 0.7),
+    0px 0px 7px rgba(252, 67, 212, 0.961);
+}
+p{
+    font-family: cursive;
+    font-variant: small-caps;
+}
+.ima{
+   margin-left: 650px;
+}
+.imagen1{
+    font-weight: 300px;
+    height: 300px;
+    border-radius: 25px;
+    float: right;
+}
+.imagen2{
+    font-weight: 300px;
+    height: 300px;
+    border-radius: 25px;
+    float: left;
+}
+.imagen3{
+    font-weight: 300px;
+    height: 300px;
+    border-radius: 25px;
+    float: right;
+}
+.imagen4{
+    font-weight: 300px;
+    height: 300px;
+    border-radius: 25px;
+    float: left;
+}
+.br1{
+    margin-right: 50px;
+}
+.caja{
+    margin-left: 51.5%;
+}
+.vent{
+    margin-left: 50%;
+}
+.ven{
+   margin-left: 50%;
+}
+.sitios{
+    text-align: center;
+}
+a{
+    float: right;
+}
+.index2{
+
+    font-size: 43px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 76%;
+ 
+}
+.icono{
+    margin-left: 50%;
+}
+.22{
+    margin-right: 80%;
+}
