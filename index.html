@@ -17,13 +17,13 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                     <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
-                    <!--<li><a href="index2.html" onclick="seleccionar()">PAGINA WEB</a></li>-->
+                       <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <!--<li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="index2.html" onclick="seleccionar()">PAGINA WEB</a></li>-->
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -307,17 +307,20 @@ operativa en el punto de atención</p>
         </div>
     </section>
 
-    <!--seccion portafolio-->
+      <!--seccion portafolio
     <section id="portafolio" class="portafolio">
         <div class="contenido-seccion">
             <h2>PORTAFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/img1.png" alt="">
-                    <div class="overlay">
-                        <h3>Diseño creativo</h3>
-                        <p>Fotografia</p>
-                    </div>
+                    <a href="index2.html" onclick="seleccionar()">
+                        <img src="img/img1.png" alt="Proyecto">
+
+                        <div class="overlay">
+                            <h3>Diseño creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="proyecto">
                     <img src="img/fondo2.avif" alt="">
@@ -356,7 +359,7 @@ operativa en el punto de atención</p>
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
     <!--seccion contacto-->
     <section id="contacto" class="contacto">
@@ -365,7 +368,7 @@ operativa en el punto de atención</p>
             <div class="fila">
                 <!--formulario-->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
+                   <!-- <input type="text" placeholder="Tú Nombre">
                     <input type="text" placeholder="Número telefonico">
                     <input type="text" placeholder="Dirección de correo">
                     <input type="text" placeholder="Tema">
@@ -374,11 +377,11 @@ operativa en el punto de atención</p>
                         Enviar Mensaje     <i class="fa-solid fa-paper-plane" style="color: #3e0354;"></i>
                         <span class="overlay"></span>
                     </button>
-                </div>
+                </div>-->
                 <!--mapa-->
                 <div class="col">
-                    <img src="img/mapa.jpeg" alt="">
-                    <div class="info">
+                        <!-- <img src="img/mapa.jpeg" alt="">-->
+                    <div class="info" style="margin-left: 10.5cm;">
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot fa-bounce" style="color: #f9f6fa;"></i>
@@ -395,10 +398,12 @@ operativa en el punto de atención</p>
                         </ul>
                     </div>
                 </div>
+                <br>
             </div>
 
         </div>
     </section>
+
 
     <!--footer-->
     <footer>
