@@ -314,7 +314,7 @@ html{
 
 .skills .skill .trabajo{
     width: 0%;
-    animation: 2s trabajo forwards; 
+    animation: 2s trabajo forwards;
 }
 @keyframes trabajo {
     0%{width: 0%;}
